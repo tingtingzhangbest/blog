@@ -1,0 +1,110 @@
+*{margin: 0;padding:0;}
+html{
+	min-width: 980px;
+	
+}
+.bodycolor{background-color: #eee}
+#header{
+	background-color: #522A5C;
+	width:100%;
+	height:80px;
+	position:relative;
+	min-width: 1200px;
+}
+#header_a{
+	margin:0 auto;
+	width:980px;
+	height:80px;
+	position:relative;
+
+}
+#header_b{
+	position:absolute;
+	right: 10px;
+	bottom: 0;
+}
+/*github图标的媒体查询*/
+@media (max-width: 980px){
+	#header_b{
+		display:none;
+	}
+}
+.logo{
+	font-size: 22px;
+	position:absolute;
+	top:40px;
+	left:0;
+	color:white;
+	font-family: "微软雅黑";
+
+}
+ul,li{
+	list-style: none;
+}
+.menu0 ul{
+	float:right;
+}
+.menu0 li{
+	float:left;
+}
+.menu{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    margin-right: 24px;
+    color:white;
+    text-decoration: none;
+}
+.menu1{
+    font-family: "微软雅黑";
+    font-size: 16px;
+    margin-right: 0;
+    color:white;
+    text-decoration: none;
+}
+.menu0{
+	position:absolute;
+    right: 0;
+    bottom: 10px;
+}
+
+#img{
+	width:100%;
+	height:580px;
+}
+body{
+	background-color: #EEE;
+}
+.midup{
+	font-size: 50px;
+	margin: 30px 10px 10px 200px;
+	display: inline-block;
+}
+.midup1{
+	font-size: 25px;
+	margin: 30px 20px 10px 10px;
+	text-decoration: none;
+	color: black;
+}
+.midwrap{
+	margin: 30px 200px;
+	border:1px solid #E2E2E2;
+	padding:20px 20px;
+	background-color: #fff;
+}
+.first,.second,.third{
+	margin:20px;
+}
+#textarea,#textarea_3{
+	height:80px;
+	width: 165px;
+}
+/*任务2*/
+#text{
+	width:200px;
+	height: 30px;
+}
+#btn{
+	margin-left: 20px;
+	width:50px;
+	height: 30px;
+}
